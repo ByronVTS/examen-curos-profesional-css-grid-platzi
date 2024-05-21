@@ -1,170 +1,224 @@
-*{
-    margin: 0;
-    padding: 0;
-    background-color: #161b22;
-    color: white;
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #161b22;
+  color: white;
+  text-align: center;
 }
+body{
+    width: 1330px;
+    text-align: center;
+    content: center;
+    margin: 0 auto;
+}
+/*!---------------------------HERO--------------------- */
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  margin: 30px;
+  border-radius: 10px;
+  height: 400px;
+  box-shadow: 0px 0px 100px 2px #6d7888;
+}
+.hero-left {
+  align-content: center;
+  margin: 30px;
+}
+.hero-left h1 {
+  font-size: 2rem;
+}
+.hero-right {
+  margin: 30px;
+}
+.hero-img {
+  background-image: url(https://images.pexels.com/photos/943096/pexels-photo-943096.jpeg);
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: cover;
+  background-size: cover;
+  border-radius: 10px;
+}
+/*---------------------------HERO---------------------FIN */
+/*! ----------------------MANSORY----------------------- */
+.mansory {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  margin: 30px;
+  border-radius: 10px;
+  height: 900px;
+  box-shadow: 0px 0px 30px 2px #6d7888;
+  gap: 10px;
+  padding: 10px;
 
-.hero{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 3rem;
-    margin: 30px;
-    /* border: 1px solid #6D7888; */
-    border-radius: 10px;
-    height: 400px;
-    box-shadow: 0px 0px 100px 2px #6D7888; 
 }
-.hero-left{
-    align-content: center;
-    margin: 30px;
+.mansory-item {
+  display: grid;
 }
-.hero-left h1{
-    font-size: 2rem;
+.mansory-item-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  border: 1px;
+  border-radius: 10px;
 }
-.hero-right{
-    margin: 30px;
+.mansory-item-1 {
+  grid-area: 1 / 1 / 3 / 2;
 }
-.hero-img{
-    background-image: url(https://images.pexels.com/photos/943096/pexels-photo-943096.jpeg);
-    width: 100%;
-    height: 100%;
-    background-position: center;
-    background-repeat: cover;
-    background-size: cover;
-    border-radius: 10px;
+.mansory-item-img-1 {
+  background-image: url(https://images.pexels.com/photos/3747139/pexels-photo-3747139.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
 }
-/* ----------------------MANSORY----------------------- */
-.mansory{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    margin: 30px;
-    /* border: 1px solid #6D7888; */
-    border-radius: 10px;
-    height: 900px;
-    box-shadow: 0px 0px 30px 2px #6D7888;
-    gap: 10px;
-    padding: 10px;
+.mansory-item-2 {
+  grid-area: 1/2/2/4;
 }
-.mansory-item{
-    display: grid;
+.mansory-item-img-2 {
+  background-image: url(https://images.pexels.com/photos/93405/pexels-photo-93405.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
 }
-.mansory-item-img{
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    border: 1px;
-    border-radius: 10px;
+.mansory-item-3 {
+  grid-area: 1/4/3/5;
 }
-.mansory-item-1{
-    grid-area: 1 / 1 / 3 / 2;
+.mansory-item-img-3 {
+  background-image: url(https://images.pexels.com/photos/986774/pexels-photo-986774.jpeg);
 }
-.mansory-item-img-1{
-    background-image: url(https://images.pexels.com/photos/3747139/pexels-photo-3747139.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-    /* grid-area: 1/ 2/3/4; */
+.mansory-item-4 {
+  grid-area: 2/2/4/3;
 }
-.mansory-item-2{
-    grid-area: 1/2/2/4;
+.mansory-item-img-4 {
+  background-image: url(https://images.pexels.com/photos/3937174/pexels-photo-3937174.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
 }
-.mansory-item-img-2{
-    background-image: url(https://images.pexels.com/photos/93405/pexels-photo-93405.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+.mansory-item-img-5 {
+  background-image: url(https://images.pexels.com/photos/2182863/pexels-photo-2182863.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
 }
-.mansory-item-3{
-    grid-area: 1/4/3/5;
+.mansory-item-img-6 {
+  background-image: url(https://images.pexels.com/photos/209251/pexels-photo-209251.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
 }
-.mansory-item-img-3{
-    background-image: url(https://images.pexels.com/photos/986774/pexels-photo-986774.jpeg);
+.mansory-item-img-7 {
+  background-image: url(https://images.pexels.com/photos/2137613/pexels-photo-2137613.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
 }
-.mansory-item-4{
-    grid-area: 2/2/4/3;
+.mansory-item-8 {
+  grid-area: 4/1/5/4;
 }
-.mansory-item-img-4{
-    background-image: url(https://images.pexels.com/photos/3937174/pexels-photo-3937174.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+.mansory-item-img-8 {
+  background-image: url(https://images.pexels.com/photos/17570843/pexels-photo-17570843.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
 }
-.mansory-item-img-5{
-    background-image: url(https://images.pexels.com/photos/2182863/pexels-photo-2182863.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+.mansory-item-9 {
+  grid-area: 3/4/5/5;
 }
-.mansory-item-img-6{
-    background-image: url(https://images.pexels.com/photos/209251/pexels-photo-209251.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-}
-.mansory-item-img-7{
-    background-image: url(https://images.pexels.com/photos/2137613/pexels-photo-2137613.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-}
-.mansory-item-8{
-    grid-area: 4/1/5/4;
-}
-.mansory-item-img-8{
-    background-image: url(https://images.pexels.com/photos/17570843/pexels-photo-17570843.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-}
-.mansory-item-9{
-    grid-area: 3/4/5/5;
-}
-.mansory-item-img-9{
-    background-image: url(https://images.pexels.com/photos/20304135/pexels-photo-20304135/free-photo-of-nieve-nevar-madera-ligero.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+.mansory-item-img-9 {
+  background-image: url(https://images.pexels.com/photos/20304135/pexels-photo-20304135/free-photo-of-nieve-nevar-madera-ligero.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
 }
 /* ----------------------MANSORY-----------------------FIN */
-/* ---------------CARDS--------------- */
-.cards{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    margin: 30px;
-    /* border: 1px solid #6D7888; */
-    border-radius: 10px;
-    height: auto;
-    box-shadow: 0px 0px 30px 2px #6D7888;
-    gap: 10px;
-    padding: 10px;
+/*! ---------------CARDS--------------- */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  margin: 30px;
+  border-radius: 10px;
+  height: auto;
+  box-shadow: 0px 0px 30px 2px #296071;
+  gap: 10px;
+  padding: 10px;
 }
-.cards-item{
-    border: 1px solid white;
-    border-radius: 10px;
+.cards-item {
+  border: 1px solid white;
+  border-radius: 10px;
 }
-.red-circle{
-    display: inline-block;
-    width: 15px;
-    height: 15px;
-    background-color: rgb(235, 98, 98);
-    border-radius: 50%;
+.red-circle {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-color: rgb(235, 98, 98);
+  border-radius: 50%;
 }
-.yellow-circle{
-    display: inline-block;
-    width: 15px;
-    height: 15px;
-    background-color: rgb(247, 247, 95);
-    border-radius: 50%;    
+.yellow-circle {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-color: rgb(247, 247, 95);
+  border-radius: 50%;
 }
-.green-circle{
-    display: inline-block;
-    width: 15px;
-    height: 15px;
-    background-color: rgb(89, 241, 89);
-    border-radius: 50%;
+.green-circle {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-color: rgb(89, 241, 89);
+  border-radius: 50%;
 }
-.cards-content{
-    margin: 20px;
+.cards-content {
+  margin: 20px;
 }
-.cards-mini-grid{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 60px);
-    gap: 5px;
-    margin-top: 10px;
+.cards-mini-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 60px);
+  gap: 5px;
+  margin-top: 10px;
 }
 
-.cards-mini{
-    background-color: white;
-    display: grid;
-    place-items: center;
-    border-radius: 5px;
+.cards-mini {
+  background-color: white;
+  display: grid;
+  place-items: center;
+  border-radius: 5px;
 }
-.cards-mini p{
-    background-color: transparent;
-    color: black;   
-    text-align: center;
+.cards-mini p {
+  background-color: transparent;
+  color: black;
+  text-align: center;
 }
 
 /* ---------------CARDS---------------FIN */
+/*! ---------------- letters------------------ */
+.rombo {
+  margin: 30px;
+  box-shadow: 0px 0px 30px 2px #6d7888;
+  padding: 10px;
+  border-radius: 10px;
+}
+.rombo-item{
+    display: grid;
+    justify-content: center;
+    gap: 10px;
+}
+.rombo-item-1 {
+  grid-template-columns: repeat(4, 300px);
+}
+.rombo-item-2 {
+  grid-template-columns: repeat(3, 300px);
+  margin: -140px 100px 0 100px;
+}
+.rombo-item-3 {
+  grid-template-columns: repeat(2, 300px);
+  margin: -140px 100px 0 100px;
+}
+.rombo-item-4 {
+  grid-template-columns: repeat(1, 300px);
+  margin: -140px 100px 0 100px;
+}
+.rombo-item-1-1{
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    grid-template-rows: repeat(1, 1fr);
+    border-radius: 10px;
+    justify-content: center;
+    gap: 10px;
+    margin: -140px 100px 0 100px;
+  }
+.rombo-text {
+  transform: rotate(45deg);
+  border: 1px solid black;
+  box-shadow: 0 0 100px 10px #5EC28F;
+  display: grid;
+  place-items: center;
+  aspect-ratio: 1/1;
+  margin: 42.5px;
+}
+.rombo-text p {
+  transform: rotate(-45deg);
+}
+/* ---------------- letters------------------FIN */
