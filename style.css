@@ -34,3 +34,73 @@
     background-size: cover;
     border-radius: 10px;
 }
+.mansory{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    margin: 30px;
+    /* border: 1px solid #6D7888; */
+    border-radius: 10px;
+    height: 900px;
+    box-shadow: 0px 0px 30px 2px #6D7888;
+    gap: 10px;
+    padding: 10px;
+}
+.mansory-item{
+    display: grid;
+}
+.mansory-item-img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    border: 1px;
+    border-radius: 10px;
+}
+.mansory-item-1{
+    grid-area: 1 / 1 / 3 / 2;
+}
+.mansory-item-img-1{
+    background-image: url(https://images.pexels.com/photos/3747139/pexels-photo-3747139.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    /* grid-area: 1/ 2/3/4; */
+}
+.mansory-item-2{
+    grid-area: 1/2/2/4;
+}
+.mansory-item-img-2{
+    background-image: url(https://images.pexels.com/photos/93405/pexels-photo-93405.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+.mansory-item-3{
+    grid-area: 1/4/3/5;
+}
+.mansory-item-img-3{
+    background-image: url(https://images.pexels.com/photos/986774/pexels-photo-986774.jpeg);
+}
+.mansory-item-4{
+    grid-area: 2/2/4/3;
+}
+.mansory-item-img-4{
+    background-image: url(https://images.pexels.com/photos/3937174/pexels-photo-3937174.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+.mansory-item-img-5{
+    background-image: url(https://images.pexels.com/photos/2182863/pexels-photo-2182863.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+.mansory-item-img-6{
+    background-image: url(https://images.pexels.com/photos/209251/pexels-photo-209251.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+.mansory-item-img-7{
+    background-image: url(https://images.pexels.com/photos/2137613/pexels-photo-2137613.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+.mansory-item-8{
+    grid-area: 4/1/5/4;
+}
+.mansory-item-img-8{
+    background-image: url(https://images.pexels.com/photos/17570843/pexels-photo-17570843.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+.mansory-item-9{
+    grid-area: 3/4/5/5;
+}
+.mansory-item-img-9{
+    background-image: url(https://images.pexels.com/photos/20304135/pexels-photo-20304135/free-photo-of-nieve-nevar-madera-ligero.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
