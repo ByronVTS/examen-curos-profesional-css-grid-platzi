@@ -34,6 +34,7 @@
     background-size: cover;
     border-radius: 10px;
 }
+/* ----------------------MANSORY----------------------- */
 .mansory{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -104,3 +105,66 @@
 .mansory-item-img-9{
     background-image: url(https://images.pexels.com/photos/20304135/pexels-photo-20304135/free-photo-of-nieve-nevar-madera-ligero.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
 }
+/* ----------------------MANSORY-----------------------FIN */
+/* ---------------CARDS--------------- */
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin: 30px;
+    /* border: 1px solid #6D7888; */
+    border-radius: 10px;
+    height: auto;
+    box-shadow: 0px 0px 30px 2px #6D7888;
+    gap: 10px;
+    padding: 10px;
+}
+.cards-item{
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.red-circle{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(235, 98, 98);
+    border-radius: 50%;
+}
+.yellow-circle{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(247, 247, 95);
+    border-radius: 50%;    
+}
+.green-circle{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(89, 241, 89);
+    border-radius: 50%;
+}
+.cards-content{
+    margin: 20px;
+}
+.cards-mini-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 60px);
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.cards-mini{
+    background-color: white;
+    display: grid;
+    place-items: center;
+    border-radius: 5px;
+}
+.cards-mini p{
+    background-color: transparent;
+    color: black;   
+    text-align: center;
+}
+
+/* ---------------CARDS---------------FIN */
