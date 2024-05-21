@@ -1,0 +1,101 @@
+@media (max-width: 767px) {
+  body {
+    width: 100%; /* Ajusta el ancho para que sea más flexible en dispositivos móviles */
+  }
+  /*!-------------------HERO--------------------  */
+  .hero {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 15px;
+    gap: 0;
+  }
+  .hero-right {
+    margin: 15px;
+  }
+  /*-------------------HERO--------------------FIN  */
+  /*!-------------------MANSORY-------------------- */
+  .mansory{
+    margin: 15px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    height: 2000px;
+  }
+  .mansory-item-1 {
+    grid-area: 1 / 1 / 3 / 2;
+  }
+  .mansory-item-2 {
+    grid-area: 1 /2 /2 /3;
+  }
+  
+  .mansory-item-3 {
+    grid-area: 2 /2 /3 /3;
+  }
+  
+  .mansory-item-4 {
+    grid-area: 3 /1 /4 /3;
+  }
+  .mansory-item-5 {
+    grid-area: 4 /1 /5 /3;
+  }
+  .mansory-item-6 {
+    grid-area: 5 /2 /7 /3;
+  }
+  .mansory-item-7 {
+    grid-area: 5 /1 /6 /2;
+  }
+  .mansory-item-8 {
+    grid-area: 6 /1 /8 /2;
+  }
+  .mansory-item-9 {
+    grid-area: 7 /2 /8 /3;
+  }
+
+  /*-------------------MANSORY--------------------FIN  */
+  /*!-------------------CARDS--------------------  */
+.cards{
+    grid-template-columns: 1fr;
+    margin: 15px;
+}
+  /*-------------------CARDS--------------------FIN  */
+  /*!-------------------ROMBO--------------------  */
+  .rombo {
+    padding-top: 370px;
+    height: 150px;
+    margin: 15px;
+  }
+  .rombo-item {
+    display: grid;
+    justify-content: center; /* Centra las figuras horizontalmente */
+    margin: 10px auto; /* Ajusta el margen para centrar las figuras */
+  }
+  .rombo-text {
+    margin: 10px;
+  }
+  .rombo-text p {
+    transform: rotate(-45deg);
+    display: none; /* Elimina el texto rotado */
+  }
+  .rombo-item-1 {
+    grid-template-columns: repeat(4, 80px);
+  }
+ .rombo-item-1-1 {
+    grid-template-columns: repeat(4, 80px);
+    margin: -140px 100px 0 100px; /* Ajusta los márgenes para centrar */
+
+  }
+  .rombo-item-2 {
+    grid-template-columns: repeat(3, 80px);
+    margin: -140px 100px 0 100px; /* Ajusta los márgenes para centrar */
+  }
+  .rombo-item-3 {
+    grid-template-columns: repeat(2, 80px);
+    margin: -140px 100px 0 100px; /* Ajusta los márgenes para centrar */
+  }
+  .rombo-item-4 {
+    grid-template-columns: repeat(1, 80px);
+    margin: -140px 100px 0 100px; /* Ajusta los márgenes para centrar */
+  }
+  /*-------------------ROMBO--------------------FIN  */
+
+}
+

@@ -173,12 +173,13 @@ body{
 }
 
 /* ---------------CARDS---------------FIN */
-/*! ---------------- letters------------------ */
+/*! ---------------- rombo------------------ */
 .rombo {
   margin: 30px;
   box-shadow: 0px 0px 30px 2px #6d7888;
   padding: 10px;
   border-radius: 10px;
+  height: 1260px;
 }
 .rombo-item{
     display: grid;
@@ -201,12 +202,7 @@ body{
   margin: -140px 100px 0 100px;
 }
 .rombo-item-1-1{
-    display: grid;
     grid-template-columns: repeat(4, 300px);
-    grid-template-rows: repeat(1, 1fr);
-    border-radius: 10px;
-    justify-content: center;
-    gap: 10px;
     margin: -140px 100px 0 100px;
   }
 .rombo-text {
@@ -221,4 +217,4 @@ body{
 .rombo-text p {
   transform: rotate(-45deg);
 }
-/* ---------------- letters------------------FIN */
+/* ---------------- rombo------------------FIN */
